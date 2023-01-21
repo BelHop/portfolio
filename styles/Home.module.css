@@ -1,41 +1,29 @@
-.main {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  align-items: center;
-  padding: 6rem;
-  min-height: 100vh;
-}
-
 .description {
+  @apply text-sm w-full;
+
   display: inherit;
   justify-content: inherit;
   align-items: inherit;
-  font-size: 0.85rem;
   max-width: var(--max-width);
-  width: 100%;
   z-index: 2;
   font-family: var(--font-mono);
 }
 
 .description a {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 0.5rem;
+  @apply flex justify-center items-center gap-2;
 }
 
 .description p {
-  position: relative;
-  margin: 0;
-  padding: 1rem;
+  @apply relative m-0 p-4;
+
   background-color: rgba(var(--callout-rgb), 0.5);
   border: 1px solid rgba(var(--callout-border-rgb), 0.3);
   border-radius: var(--border-radius);
 }
 
 .code {
-  font-weight: 700;
+  @apply font-bold;
+
   font-family: var(--font-mono);
 }
 
@@ -55,28 +43,25 @@
 }
 
 .card span {
-  display: inline-block;
+  @apply inline-block;
+
   transition: transform 200ms;
 }
 
 .card h2 {
-  font-weight: 600;
-  margin-bottom: 0.7rem;
+  @apply font-semibold mb-3;
 }
 
 .card p {
-  margin: 0;
+  @apply m-0 text-sm leading-normal;
+
   opacity: 0.6;
-  font-size: 0.9rem;
-  line-height: 1.5;
   max-width: 30ch;
 }
 
 .center {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  position: relative;
+  @apply flex justify-center items-center relative;
+
   padding: 4rem 0;
 }
 
@@ -89,9 +74,9 @@
 }
 
 .center::after {
+  @apply w-56 h-48;
+
   background: var(--primary-glow);
-  width: 240px;
-  height: 180px;
   z-index: -1;
 }
 
@@ -110,16 +95,11 @@
 }
 
 .thirteen {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 75px;
-  height: 75px;
+  @apply flex justify-center items-center w-20 h-20 ml-4 overflow-hidden;
+
   padding: 25px 10px;
-  margin-left: 16px;
   transform: translateZ(0);
   border-radius: var(--border-radius);
-  overflow: hidden;
   box-shadow: 0px 2px 8px -1px #0000001a;
 }
 
