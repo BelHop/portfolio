@@ -14,7 +14,7 @@ export default function laravel() {
                     <div className='max-w-md'>
                         <div className="flex">
                             <Link href={"https://laravel.com/"}>
-                                <Image src={'/images/Laravel.svg'} alt="react-icon" className="" width={300} height={300}/>
+                                <Image src={'/images/Laravel.png'} alt="react-icon" className="animation-bounce" width={300} height={300}/>
                             </Link>
                         </div>
                         <h1 className="font-extrabold text-red-600">*THIS PAGE IS UNDER CONSTRUCTION*</h1>
