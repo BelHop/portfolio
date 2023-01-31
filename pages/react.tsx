@@ -26,7 +26,7 @@ export default function React() {
                         <Link href={'https://github.com/Git-fanual/portfolio'} className="mt-6 transition-all duration-500 ease-in-out btn btn-outline btn-success btn-block hover:scale-125 animate-fade-in-down">This Website! &nbsp; <FaGithub className="scale-150"/></Link>
                         <div className="flex">
                             <Link href={'/'} className="mt-6 transition-all duration-500 ease-in-out btn btn-outline btn-primary hover:scale-125 animate-slide-in-right">Back to home &nbsp; <FaHome className="mb-1 scale-150"/></Link>
-                            <Link href={'/'} className="mt-6 transition-all duration-500 ease-in-out ml-36 btn btn-outline btn-error hover:scale-125 animate-slide-in-left">Laravel/PHP &nbsp; <FaLaravel className="mb-1 scale-150"/></Link>
+                            <Link href={'/laravel'} className="mt-6 transition-all duration-500 ease-in-out ml-36 btn btn-outline btn-error hover:scale-125 animate-slide-in-left">Laravel/PHP &nbsp; <FaLaravel className="mb-1 scale-150"/></Link>
                         </div>
                     </div>
                 </div>
